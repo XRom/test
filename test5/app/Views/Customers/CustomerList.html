@@ -1,0 +1,17 @@
+﻿<div>
+    <h1>Адресная книга</h1>
+
+    <div class="well" style="background-image: none">
+        <div class="input-group">
+            <input type="text"
+                name="searchText"
+                ng-model="data.filterOptions.filterText"
+                class="form-control"
+                placeholder="Поиск..." />
+            <span class="input-group-addon glyphicon glyphicon-search"></span>
+        </div>
+        <br />
+        <div class="gridStyle"  ng-grid="gridOptions"></div>
+    </div>
+</div>
+<!-- -->

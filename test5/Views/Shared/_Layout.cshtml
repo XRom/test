@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Other code removed-->
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css") 
+        @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/angularjs")
+    @Scripts.Render("~/bundles/bootstrapjs")
+    @Scripts.Render("~/bundles/app")
+</head>
+<body ng-app="app">
+    <!-- Code for page header removed -->
+
+    <div  class="container">
+            @RenderBody()
+    </div>
+    <!-- Footer code removed -->
+
+
+
+</body>
+</html>
